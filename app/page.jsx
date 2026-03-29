@@ -44,7 +44,7 @@ export default function Page() {
       <p style={{ color: "gray" }}>{game.game_date}</p>
 
       <div style={{ whiteSpace: "pre-line" }}>
-        {game.recap}
+        <div dangerouslySetInnerHTML={{ __html: game.recap }} />
       </div>
 
       <hr />
