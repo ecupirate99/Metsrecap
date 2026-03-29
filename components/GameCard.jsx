@@ -14,7 +14,7 @@ export default function GameCard({ game }) {
 
       {/* RECAP */}
       <div className="text-gray-700 whitespace-pre-line leading-relaxed mb-4">
-        {game?.recap}
+        <div dangerouslySetInnerHTML={{ __html: game.recap }} />
       </div>
 
       {/* RESULT */}
