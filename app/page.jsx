@@ -49,8 +49,6 @@ export default function Page() {
 
       <hr />
 
-      <p>{game.result_summary}</p>
-
       <button onClick={loadGame} style={{ marginTop: 20 }}>
         Refresh
       </button>
